@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: none; /* Hidden by default */
+}
+
+.nav-links li {
+    display: block; /* Stack vertically when displayed */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: block; /* Always show hamburger icon */
+    font-size: 24px; /* Larger icon */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .nav-links {
+        display: block; /* Always show nav links on desktop */
+    }
+    .hamburger {
+        display: none; /* Hide hamburger menu on desktop */
+    }
+    .nav-links li {
+        display: inline; /* Align links horizontally on desktop */
+        margin-right: 20px;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:root {
+    --primary-color: #5C67F2;
+    --text-color: #333;
+    --background-color: #fff;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+section {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+nav ul li {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url('Pandemonium_Fortress.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    opacity: 0.9;
+}
+
+section {
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+body {
+    line-height: 1.6;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    width: 90%;
+}
+
+.nav-links {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
